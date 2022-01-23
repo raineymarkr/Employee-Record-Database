@@ -6,14 +6,14 @@ using namespace std;
 
 class emp_rec {
 private:
-
-
-public:
-
     string last_name;
     string first_name;
     int agep;
     int job_level;
+
+public:
+
+
     friend ostream &operator<<(ostream &os, emp_rec &emp1);
 
     emp_rec() {cout << "Must include all data in format last, first, age, job level" << endl;}
